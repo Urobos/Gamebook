@@ -1,0 +1,50 @@
+ul {
+  width: 100%;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+ul > li > a {
+  display:block;
+  text-decoration:none;
+  color:#000;
+}
+
+ul > li {
+  float: left;
+  width: 25%;
+}
+
+ul:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.lp {
+  float: left;
+  background-color: lime;
+  padding: 10px;
+  font-size: 50px;
+  border-radius: 20px;
+  margin: 10px;
+  width: 25%;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: blue;
+}
+
+.rp {
+  font-size: 30px;
+  margin: 20px;
+  /*width: 70%;*/
+}
+
+.loc {
+  font-size: 50px;
+  background-color: green;
+}

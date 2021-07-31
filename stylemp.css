@@ -1,0 +1,107 @@
+.loc > ul {
+  width: 100%;
+  margin:0;
+  padding:0;
+  list-style-type:none;
+}
+
+.loc > ul > li > a {
+  display:block;
+  background-color: green;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 25px;
+  width: 100%;
+}
+
+.loc > ul > li {
+  float: left;
+  width: 25%;
+}
+
+.loc > ul:after {
+  content:'';
+  display:block;
+  clear:both;
+}
+
+.lp {
+  float: left;
+  padding: 0px;
+  font-size: 50px;
+  margin: 0px;
+  width: 30%;
+}
+
+body {
+  text-align: center;
+  margin: 0px;
+  background-color: orange;
+  font-size: 30px;
+}
+
+.rp {
+  font-size: 30px;
+  /*margin: 200px;*/
+  width: 60%;
+  margin-left: 35%;
+}
+
+.loc {
+  font-size: 50px;
+  background-color: green;
+}
+
+button {
+    /*background-color: green;*/
+    /*border: none;*/
+    text-align: center;
+    /*text-decoration: none;*/
+    font-size: 50px;
+    width: 100%;
+    /*display: inline-block;*/
+    /*cursor: pointer;*/
+}
+
+.lp > ul {
+  list-style-type: none;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lp > ul > li {
+  margin: 20px;
+}
+
+.com {
+  border: 5px solid black;
+  border-radius: 15px;
+  margin: 10px;
+  margin-bottom: 0px;
+}
+
+.md {
+  margin-bottom: 15px;
+}
+
+#coments_section {
+  background-color: white;
+}
+
+.adpa {
+  text-decoration: none;
+  color: black;
+}
+
+#notebutton {
+  text-align: center;
+  font-size: 30px;
+  width: 50%;
+}
+
+#points {
+  background-color: green;
+}
